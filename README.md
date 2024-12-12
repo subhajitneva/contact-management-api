@@ -22,9 +22,7 @@ This is a RESTful API project built using Node.js TypeScript. The project uses v
 - [nodemon](https://www.npmjs.com/package/nodemon)
 - [ts-node](https://www.npmjs.com/package/ts-node)
 - [typescript](https://www.npmjs.com/package/typescript)
-Installation
-Clone the repository:
-git clone https://github.com/your_username/rest-api-project.git
+
 Install the dependencies:
 npm install
 Usage
