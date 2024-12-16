@@ -7,7 +7,7 @@ export const ContactRouter =  (router: express.Router, prefix='') => {
   /* GET Contacts listing. */
   router.post(prefix+'/create', contact.create);
   router.get(prefix+'/display', contact.display);
-  router.get(prefix+'/displayone/:id', contact.displayOne);
+  router.get(prefix+'/display/:id', contact.displayOne);
   router.put(prefix+'/update/:id', contact.update);
-  router.delete(prefix+'/remove', contact.remove);
+  router.delete(prefix+'/remove/:id', contact.remove);
 }
